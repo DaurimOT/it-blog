@@ -1,17 +1,17 @@
 import SectionsHeader from '@/Components/Sections-header';
 import Description from '@/Components/Description';
-import Post from '@/Components/Post';
+import Post from '@/Components/Post/Post';
 import Link from 'next/link';
 
-import styles from './home.module.css';
+import './home.css';
 
 
 
 export default function Home() {
   return (
-    <div className={` ${styles.home} `}>
-      <div className={` ${styles.home_container} base_width `}>
-        <div className={`${styles.post_list} post_list`}>
+    <div className='home'>
+      <div className='home_container base_width'>
+        <div className='post_list post_list'>
             <SectionsHeader sectionHeader={{
               name: 'Блоги по программированию'
             }}/>
@@ -28,11 +28,11 @@ export default function Home() {
               }}
             />
         </div>
-        <div className={`${styles.side_bar} side_bar`}>
+        <div className='side_bar side_bar'>
             <SectionsHeader sectionHeader={{
               name: 'Категории'
             }}/>
-            <div className={`${styles.category_list}`}>
+            <div className='category_list'>
               <Link href="">Прогнозы в IT</Link>
             </div>
         </div>
