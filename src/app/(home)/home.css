@@ -1,27 +1,5 @@
-.home_container {
-    padding: 160px 100px;
-    background-color: rgb(247, 249, 250);
-    align-items: flex-start;
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-}
 
-.post_list, 
-.side_bar {
-    background-color: #fff;
-}
 
-.post_list {
-    padding: 40px;
-    width: calc(70% - 15px);
-}
-
-.side_bar {
-    padding-top: 40px;
-    width: calc(30% - 15px);
-
-}
 
 .category_list {
     padding: 25px 25px 25px 25px;

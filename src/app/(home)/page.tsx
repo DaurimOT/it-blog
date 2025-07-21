@@ -10,8 +10,8 @@ import './home.css';
 export default function Home() {
   return (
     <div className='home'>
-      <div className='home_container base_width'>
-        <div className='post_list post_list'>
+      <div className='home_container base_width page_base'>
+        <div className='post_list'>
             <SectionsHeader sectionHeader={{
               name: 'Блоги по программированию'
             }}/>
@@ -28,7 +28,7 @@ export default function Home() {
               }}
             />
         </div>
-        <div className='side_bar side_bar'>
+        <div className='side_bar'>
             <SectionsHeader sectionHeader={{
               name: 'Категории'
             }}/>

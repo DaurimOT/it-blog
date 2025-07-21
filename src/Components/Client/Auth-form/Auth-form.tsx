@@ -11,7 +11,7 @@ export default function AutnForm() {
 
     const searchParams = useSearchParams();
     const router = useRouter();
-    
+
     const mode = searchParams.get('mode') ?? 'signin'; 
 
     const switchMode  = () => {
