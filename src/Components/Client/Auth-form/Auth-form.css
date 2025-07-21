@@ -1,0 +1,42 @@
+.register_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register_form > input {
+    width: 100%;
+    padding: 15px 15px;
+    margin-bottom: 15px;
+
+    border: 1px solid #E7E7E7;
+    border-radius: 4px;
+}
+
+.register_form > input::placeholder {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 46px;
+    color: rgba(0, 0, 0, 0.54)00008A;
+}
+
+.register_form > button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 46px;
+
+    background-color: rgba(0, 162, 220, 1);
+    color: #fff;
+    border-radius: 4px;
+}
+
+.form_container > p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 46px;
+    color: #000;
+}
+
+.form_container > p > span {
+    color: blue;
+    cursor: pointer;
+}
